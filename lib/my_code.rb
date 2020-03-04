@@ -5,7 +5,7 @@ i = 0
   newArr.push(yield(array[i]))
   i += 1 
   end
-  new 
+  newArr
 end
 
 def reduce(array, sv=nil) 
