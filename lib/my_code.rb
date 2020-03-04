@@ -9,9 +9,9 @@ i = 0
 end
 
 def reduce(array, sv=nil) 
-sum = 0
+
     if sv
-      sum - sv
+      sum = sv
       i = 0 
     else 
       sum = array[0]
